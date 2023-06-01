@@ -1,0 +1,331 @@
+.container_contact{
+    overflow-x: hidden;
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(0, 96, 89, 1) 0%,
+    rgba(1, 17, 56, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(0, 96, 89, 1) 0%,
+    rgba(1, 17, 56, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(0, 96, 89, 1) 0%,
+    rgba(1, 17, 56, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#011138', endColorstr='#006059', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(0, 96, 89, 1) 0%,
+    rgba(1, 17, 56, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 96, 89, 1) 0%,
+    rgba(1, 17, 56, 1) 100%
+  );
+
+
+  height: auto;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  z-index: -10;
+  text-align: center;
+  padding: 10rem 0rem;
+}
+.contact_section_heading {
+     position: relative;
+      width: 100%;
+     margin: auto;
+}
+.contact_section_heading_h1{
+    background: -webkit-linear-gradient(10deg, lime, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    padding-bottom: 4rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'roboto',sans-serif;
+}
+.contact_section_heading img {
+   height: 200px;
+   width: 700px;
+   margin: 2rem 0rem;
+}
+
+.span_contact {
+    background: -webkit-linear-gradient(130deg, white,#fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+}
+.contact_us{
+    font-weight: 400;
+    color: #fff;
+    padding: 0.2rem 0rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.contact_form {
+   padding: 3rem 0rem;
+}
+.contact_form h1 {
+  background: -webkit-linear-gradient(130deg, Lime,#fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+  margin: 1.2rem 0rem;
+}
+.form_fill {
+  width: 480px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: auto;
+  gap: 10px;
+}
+.address_details{
+  background: -webkit-linear-gradient(130deg, Lime,#fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: auto;
+  padding: 3rem 0rem;
+}
+.form_fill label {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.form_fill input {
+  width:100%;
+  font-family: 'Poppins', sans-serif;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.form_fill textarea {
+  height: 200px;
+  width: 480px;
+  font-family: 'Poppins',sans-serif;
+  padding: 0.5rem ;
+  border: none;
+  outline: none;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+.contact_us_email {
+   color: #fff;
+    width: 50%;
+    margin: auto;
+    overflow-x: hidden;
+
+}
+.e_address {
+   font-size: 1.3rem;
+   font-weight: 400;
+   color: #fff;
+}
+
+
+@media screen and (max-width: 1200px){
+  .contact_section_heading_h1{
+    font-size: 4rem;
+  }
+
+}
+@media screen and (max-width: 1080px){
+  .contact_section_heading_h1{
+    font-size: 3.7rem;
+  }
+  .contact_section_heading img {
+    height: 200px;
+    width: 600px;
+  }
+}
+ @media Screen and (max-width:990px){
+  .contact_section_heading_h1{
+    font-size: 3.6rem;
+  }
+  .contact_section_heading img {
+    height: 180px;
+    width: 580px;
+  }
+ }
+ @media screen and (max-width:899px){
+  .contact_section_heading_h1{
+    font-size: 3.5rem;
+  }
+  .contact_section_heading img {
+    height: 160px;
+    width: 560px;
+  }
+  .contact_us {
+    font-size: 1.2rem;
+    width: 90%;
+    /* overflow-x : hidden; */
+    margin:auto;
+    text-align: center;
+  }
+  .address_details {
+     font-size: 1.3rem ;
+  }
+
+ }
+ @media screen and (max-width:799px){
+  .contact_section_heading_h1{
+    font-size: 3.2rem;
+  }
+  .contact_section_heading img {
+    height: 140px;
+    width: 540px;
+  }
+  .contact_us {
+    font-size: 1rem;
+  }
+  .address_details {
+     font-size: 1.1rem;
+     width:80%;
+     text-align: center;
+  }
+  .form_fill input {
+     width: 70%;
+
+     margin:0rem 2rem;
+  }
+  .form_fill textarea{
+    width: 70%;
+    margin: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
+  .form_fill label{
+     font-size: 1.1rem;
+     margin: 0rem 2rem;
+  }
+ }
+ @media screen and (max-width:699px) {
+  .contact_section_heading_h1{
+    font-size: 3rem;
+  }
+  .contact_section_heading img {
+     height: 80px;
+     width: 300px;
+  }
+  .contact_form h1 {
+      font-size: 1.8rem;
+  }
+  .form_fill label {
+    font-size: 1.1rem;
+  }
+  .form_fill input {
+    width: 65%;
+
+    margin:0rem 2rem;
+ }
+ .form_fill textarea{
+   width: 65%;
+   margin: 0rem 2rem;
+   margin-bottom: 2rem;
+ }
+ .form_fill label{
+    font-size: 1.1rem;
+    margin: 0rem 2rem;
+ }
+ .e_address {
+   font-size: 10px;
+ }
+ .contact_us {
+  font-size: 10px;
+ }
+ }
+ @media Screen and (max-width:650px) {
+.contact_section_heading_h1 {
+   font-size:2.2rem;
+}
+.e_address {
+  font-size: 10px;
+  text-wrap: wrap;
+  padding: 0.7rem;
+}
+
+.contact_section_heading img {
+  height: 80px;
+  width:240px;
+}
+.form_fill input {
+  width: 70%;
+  margin: 0rem 2rem;
+  align-items: center;
+}
+.form_fill textarea{
+ width: 70%;
+ margin-bottom: 2rem;
+}
+.form_fill label{
+  font-size: 1.1rem;
+  margin: 0rem 2rem;
+}
+.contact_form h1 {
+  font-size: 1.5rem;
+  padding: 1.5rem;
+}
+.contact_us {
+  text-wrap: wrap;
+   padding: 0;
+   margin: 0;
+}
+ }
+
+ @media screen and (max-width: 360px){
+  .form_fill input {
+    width: 59%;
+    margin: 0rem 2rem;
+    align-items: center;
+
+  }
+  .form_fill textarea{
+   width: 59%;
+   margin-bottom: 2rem;
+  }
+  .form_fill label{
+    font-size: 1.1rem;
+    margin: 0rem 2rem;
+  }
+ }
+ @media screen and (max-width: 320px){
+  .form_fill input {
+    width: 55%;
+    margin: 0rem 2rem;
+    align-items: center;
+
+  }
+  .form_fill textarea{
+   width: 55%;
+   margin-bottom: 2rem;
+  }
+  .form_fill label{
+    font-size: 1.1rem;
+    margin: 0rem 2rem;
+  }
+
+ }
